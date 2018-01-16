@@ -5,7 +5,7 @@ services:
     build: .
     volumes:
       # Mount for ....
-      - ./udf:/code
+      - ./udf:/code/udf
       #mount for unix socket communication
       - /volume1/docker/sandbox/kapacitor:/kapacitor
       - /volume1/docker/sandbox/kapacitor/data/tmp:/tmp
